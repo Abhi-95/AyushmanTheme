@@ -17,7 +17,7 @@
 .team-member-2 .team-member-2-content h5 a:hover,
 .footer-copyright a,
 .bk-navigation ul li.bk-dropdown ul li:hover > a{
-    color: #3498db;
+    color: #c20000;
 }
 
 
@@ -37,13 +37,13 @@
 .widgets.footer-widgets .widget-title::after,
 #scrollUp,
 .mean-container .mean-nav ul li a{
-    background: #3498db;
+    background: #fea500;
 }
 .bg-theme{
-    background: #3498db !important;
+    background: ###c30101 !important;
 }
 .bg-secondary{
-    background: #13bfb1 !important;
+    background: ##c20000 !important;
 }
 
 
@@ -57,7 +57,7 @@ input:focus, input:active, button:focus, button:active, select:focus, select:act
 .slider-dots-style-2 .cr-slider-dots li.slick-active, .slider-dots-style-2 .cr-slider-dots li:hover,
 #scrollUp,
 .bk-navigation ul li.bk-dropdown ul{
-    border-color: #3498db;
+    border-color: #fea500;
 }
 
 .footer-newsletter-form input[type="submit"]:hover, .footer-newsletter-form button:hover {
@@ -75,8 +75,8 @@ input:focus, input:active, button:focus, button:active, select:focus, select:act
 }
 
 .banner-text2-buttons .bk-button, .banner-text2-buttons a.bk-button, .banner-text2-buttons button.bk-button{
-    background: #5faee3;
-    border-color: #5faee3;
+    background: ##fea500;
+    border-color: ##fea500;
 }
 
 .header-top-inner .header-support-info{

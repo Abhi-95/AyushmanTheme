@@ -1,9 +1,22 @@
-/*********************************************************************************
+@font-face {
+    font-family: AnandaNamaste;
+    src: url(../fonts/AnandaNamaste.ttf);
+}
 
-	Template Name: Binke - Health & Medical Bootstrap4 Template
-	Description: A perfect template to build beautiful and unique medical websites. It comes with nice and clean design.
-	Version: 1.0
+.bk-navigation ul li a,.bk-navigation ul li.bk-dropdown ul li a{
+	font-family: AnandaNamaste;
+	font-size: 24px
+}
+.handy-pointer{cursor:pointer;}
 
-	Note: This is custom css. All custom styles (user styles) declare here.
+body.modal-open .bk-service{
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+}
+.modal-backdrop{
+	background-color: #0000008c;
+}
 
-**********************************************************************************/

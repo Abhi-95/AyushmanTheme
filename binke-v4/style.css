@@ -954,7 +954,7 @@ blockquote {
 
 /* Background Color */
 .bg-theme {
-  background: #13bfb1 !important;
+  background: #c20000 !important;
 }
 
 .bg-secondary {
@@ -1928,10 +1928,10 @@ Elements Styles
 a.bk-button,
 button.bk-button {
   display: inline-block;
-  background: #13bfb1;
+  background: #c30000;
   font-size: 14px;
   border-width: 2px;
-  border-color: #13bfb1;
+  border-color: #c30000;
   border-style: solid;
   -webkit-transition: all 0.4s ease-in-out 0s;
   -o-transition: all 0.4s ease-in-out 0s;
@@ -2001,8 +2001,8 @@ button.bk-button span {
 .bk-button:hover,
 a.bk-button:hover,
 button.bk-button:hover {
-  background: #13bfb1;
-  border-color: #13bfb1;
+  background: ##fea603;
+  border-color: ##fea603;
   color: #ffffff;
   -webkit-transform: translateY(-4px);
   -ms-transform: translateY(-4px);
@@ -3831,9 +3831,10 @@ Blocks Styles
   flex-wrap: wrap;
 }
 
+
 .banner-text2-buttons .bk-button, .banner-text2-buttons a.bk-button, .banner-text2-buttons button.bk-button {
-  background: #15d6c6;
-  border-color: #15d6c6;
+  background: ##fea500;
+  border-color: ##fea500;
 }
 
 .banner-text2-buttons .bk-button:hover, .banner-text2-buttons .bk-button:active, .banner-text2-buttons a.bk-button:hover, .banner-text2-buttons a.bk-button:active, .banner-text2-buttons button.bk-button:hover, .banner-text2-buttons button.bk-button:active {
@@ -4027,8 +4028,9 @@ Blocks Styles
   -o-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
   position: relative;
-  border-right: 1px solid rgba(255, 255, 255, 0.3);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+   border-right: 1px solid rgba(254, 165, 0, 1);
+   border-bottom: 1px solid rgba(254, 165, 0, 1);
+   border-left: 1px solid rgba(254, 165, 0, 1);
 }
 
 .bk-service i {
@@ -4086,20 +4088,21 @@ Blocks Styles
 }
 
 .bk-service.is-hover i {
-  color: #13bfb1;
+  color: #c20000;
 }
 
 .bk-service.is-hover h3 {
-  color: #13bfb1;
+  color: #c20000;
 }
 
 .bk-service.is-hover h3::before {
-  background: #13bfb1;
+  background: #c20000;
 }
 
 @media only screen and (min-width: 1200px) {
   [class^="col-"]:nth-child(4n + 0) .bk-service {
-    border-right: none;
+    border-right:#fea500 solid 1px;
+	
   }
 }
 
@@ -5326,7 +5329,11 @@ Blocks Styles
 }
 
 .testimonial2 .testimonial2-text p::before {
-  content: "\"";
+  content: &ldquo;
+}
+
+.testimonial2 .testimonial2-text p::after {
+  content: &rdquo;
 }
 
 .testimonial2 .testimonial2-author {
@@ -5684,8 +5691,8 @@ Blocks Styles
 .timetable-block.contact-info ul li span {
   font-size: 20px;
   color: #ffffff;
-  border: 1px solid #2386c8;
-  background: #2386c8;
+  border: 1px solid #fea500;
+  background: #fea500;
   height: 35px;
   width: 35px;
   display: inline-block;
