@@ -6477,9 +6477,9 @@ Blocks Styles
 
 .contact-form button, .contact-form input[type="submit"] {
   height: 50px;
-  background: #13bfb1;
+  background: #c20000;
   color: #ffffff;
-  border: 1px solid #13bfb1;
+  
   border-radius: 3px;
   font-size: 14px;
   font-family: "Raleway", sans-serif;
@@ -6494,7 +6494,7 @@ Blocks Styles
 }
 
 .contact-form button:hover, .contact-form input[type="submit"]:hover {
-  background: rgba(19, 191, 177, 0.8);
+  background: rgba(254, 165, 0, 1);
 }
 
 .contact-rightside {
