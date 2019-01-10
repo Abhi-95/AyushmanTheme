@@ -4117,7 +4117,7 @@ Blocks Styles
     min-height: 280px;
   }
   [class^="col-"]:nth-child(2n + 0) .bk-service {
-    border-right: none;
+   /*border-right: none;*/
   }
 }
 
@@ -5188,11 +5188,7 @@ Blocks Styles
   color: #ffffff;
 }
 
-.testimonial h6:after {
-  content: "-";
-  display: inline-block;
-  margin: 0 10px;
-}
+
 
 .testimonial span {
   color: #ffffff;
@@ -5268,8 +5264,8 @@ Blocks Styles
 }
 
 .testimonial-wrap .cr-slider-dots li.slick-active, .testimonial-wrap .cr-slider-dots li:hover {
-  background: #13bfb1;
-  border-color: #13bfb1;
+  background: #c20000;
+  border-color: #c20000;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -6032,7 +6028,7 @@ Blocks Styles
 }
 
 .funfact-wrap-grey .funfact i {
-  color: #13bfb1;
+  color: #c10000;
 }
 
 .funfact-wrap-grey .funfact span.odometer {
