@@ -1,0 +1,6 @@
+E:\Sarabhai\AyushmanTheme\AyurHospital\App.DAL\bin\Debug\netstandard2.0\App.DAL.deps.json
+E:\Sarabhai\AyushmanTheme\AyurHospital\App.DAL\bin\Debug\netstandard2.0\App.DAL.dll
+E:\Sarabhai\AyushmanTheme\AyurHospital\App.DAL\obj\Debug\netstandard2.0\App.DAL.csprojAssemblyReference.cache
+E:\Sarabhai\AyushmanTheme\AyurHospital\App.DAL\obj\Debug\netstandard2.0\App.DAL.csproj.CoreCompileInputs.cache
+E:\Sarabhai\AyushmanTheme\AyurHospital\App.DAL\obj\Debug\netstandard2.0\App.DAL.AssemblyInfoInputs.cache
+E:\Sarabhai\AyushmanTheme\AyurHospital\App.DAL\obj\Debug\netstandard2.0\App.DAL.AssemblyInfo.cs
